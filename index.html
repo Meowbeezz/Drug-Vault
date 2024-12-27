@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Vault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <h1>Drug Vault</h1>
+        <p>Your Vault of Safe, Reliable Drug Knowledge</p>
+    </div>
+
+    <!-- Search Bar Section -->
+    <div id="search-container">
+        <input type="text" id="search" placeholder="Search for a drug..." />
+        <button id="search-btn">Search</button>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading" style="display:none;">
+        <p>Loading...</p>
+    </div>
+
+    <!-- Drug Info Section -->
+    <div id="drug-info" class="info-box" style="display:none;"></div>
+
+    <!-- Interaction Check Section -->
+    <div id="interaction-section" class="interaction-box">
+        <h3>Check Drug Interactions</h3>
+        <input type="text" id="drug1" placeholder="Drug 1" />
+        <input type="text" id="drug2" placeholder="Drug 2" />
+        <button id="interaction-btn">Check Interaction</button>
+        <div id="interaction-result" style="display:none;"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-section">
+                <a href="javascript:void(0)" class="collapsible">About Drug Vault</a>
+                <div class="content">
+                    <p>Drug Vault is your trusted resource for reliable and up-to-date information on medications...</p>
+                </div>
+            </div>
+    
+            <!-- Sources Section -->
+            <div class="footer-section">
+                <a href="javascript:void(0)" class="collapsible">Sources</a>
+                <div class="content">
+                    <ul>
+                        <li><a href="https://www.drugs.com" target="_blank">Drugs.com</a></li>
+                        <li><a href="https://www.mayoclinic.org/drugs-supplements" target="_blank">Mayo Clinic - Drugs & Supplements</a></li>
+                        <li><a href="https://www.webmd.com/drugs/2/index" target="_blank">WebMD - Drugs & Medications</a></li>
+                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3707482/" target="_blank">NIH - PubMed</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Disclaimer Section -->
+            <div class="footer-section">
+                <a href="javascript:void(0)" class="collapsible">Disclaimer</a>
+                <div class="content">
+                    <p>The information provided by Drug Vault is for general informational purposes...</p>
+                    <p>Drug Vault does not assume any liability for errors, omissions, or damages that may arise from the use of this website...</p>
+                </div>
+            </div>
+    
+            <!-- Contact Section -->
+            <div class="footer-section">
+                <a href="javascript:void(0)" class="collapsible">Contact Us</a>
+                <div class="content">
+                    <p>If you have any questions, comments, or feedback, feel free to get in touch with us:</p>
+                    <p>Email: <a href="mailto:sandhumandeep6112@gmail.com">sandhumandeep6112@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
